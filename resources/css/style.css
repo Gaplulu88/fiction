@@ -1,0 +1,21 @@
+
+ .header {
+   display: flex;
+ }
+
+ .navigation ul li{
+   display: inline-block;
+ }
+
+ .logo {
+    color: aquamarine;
+    flex-direction: row;
+  }
+
+ .title {
+   font-family: Verdana;
+   font-size: 14px;
+   font-weight: bold;
+   flex-direction: row;
+   flex-flow:row;
+ }
