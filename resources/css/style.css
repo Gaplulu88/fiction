@@ -1,22 +1,56 @@
 
-.header {
-  display: flex;
-  align-items: stretch;
-  justify-content: flex-start;
-  flex-grow: 
-}
 
- li{
-  display: inline-block;
-}
-
- h1 {
+   .header {
   color: aqua;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   padding-left: 50px;
+  display:flex;
 }
- img {
-   padding-left: 10px;
- }
+   .one  h1{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 50px;
+  color: blue;
+}
+
+  .navigation ul li{
+    display: inline-block;
+  }
+
+  .project {
+    display: flex;
+    align-items: center;
+  }
+
+.one {
+  flex: 1;
+}
+
+.header {
+  flex: 1;
+}
+
+.navigation {
+  flex: 1;
+}
+
+
+  .column-layout {
+    display: flex;
+    align-items: center;
+  }
+
+  .main-column {
+    flex: 2;
+  }
+
+  .sidebar-one {
+    flex: 1;
+  }
+
+  .sidebar-two {
+    flex: 1;
+  }
